@@ -4,47 +4,41 @@
    font-family: 'Open Sans', sans-serif;
 }
 
-.page-imge {
-   background-image: url('./images/banner/banner3.png');
-   height: 1140px;
-   width: 1367px;
-   margin-top: 0px;
-   padding: 0px;
-   background-repeat: no-repeat;
-
-
+.page-image {
+   background-image: url('./images/banner/banner2.png');
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: end;
 }
 
-/* 1 past banner  */
 .page-banner {
-   height: 20px;
-   width: 900px;
-   padding: 5px;
    text-align: right;
-
+   width: 40%;
+   margin-right: 200px;
 }
 
 .page-title {
-
-   font-size: 30px;
-   color: beige;
-   margin-top: 150px;
-
+   font-size: 50px;
+   font-weight: 800;
 }
 
 .page-description {
-   font-size: 20px;
-   padding-left: 60px;
-   margin-left: 20px;
-
+   font-size: 18px;
+   font-weight: normal;
 }
 
 .btn-primary {
-   background-color: orangered;
-   padding: 10px;
+   padding: 10px 15px;
+   border-radius: 6px;
+   outline: none;
    border: none;
-   border-radius: 5px;
-   font-size: 15px;
+   background-color: orangered;
+   font-size: 16px;
+   font-weight: 600;
+   color: white;
+   margin-top: 16px;
 }
 
 /* 2 part stactuer  */
@@ -124,20 +118,81 @@
 /* button  */
 .btn-box {
    padding-top: 10px;
-   margin-right: 600px ;
+   margin-right: 600px;
    padding: 10px 20px;
    border: none;
    border-radius: 5px;
    font-size: 20px;
-  
-   color:chocolate;
+   color: chocolate;
    margin-top: 12px;
+   cursor: pointer;
 
 }
+
 /* footer end file  */
-.the-end{
+.the-end {
    height: 100vh;
-   width: 1367px;
    background-color: darkred;
-   
+
+}
+
+.end-title {
+   display: flex;
+
+}
+
+.end-sub-title {
+   margin: 90px;
+   gap: 20px;
+}
+
+.future {
+   margin-bottom: 30px;
+   color: aliceblue;
+}
+
+.sub-future {
+   margin-bottom: 20px;
+   color: aliceblue;
+}
+
+.icon-end {
+   gap: 150px;
+
+}
+
+
+/* aminul */
+.container {
+   width: 100%;
+}
+
+.main-content {
+   padding: 0 120px;
+   display: flex;
+   align-items: center;
+   gap: 100px;
+}
+
+.container-image {
+   width: 40%;
+}
+
+.container-right {
+   width: 40%;
+}
+.heading{
+   margin-bottom: 20px;
+}
+.item-container{
+   margin-top: 30px;
+}
+.single-item{
+   display: flex;
+   gap: 4px;
+   margin: 7px 0;
+}
+.svg-icon{
+   width: 18px;
+   color: green;
 }
