@@ -1,48 +1,143 @@
-*{
+* {
    margin: 0px;
    padding: 0px;
    font-family: 'Open Sans', sans-serif;
 }
-.page-imge{
-   background-image: url('./images/banner/banner3.png');height: 1140px;
+
+.page-imge {
+   background-image: url('./images/banner/banner3.png');
+   height: 1140px;
    width: 1367px;
    margin-top: 0px;
    padding: 0px;
    background-repeat: no-repeat;
-   
+
 
 }
-.page-banner{
+
+/* 1 past banner  */
+.page-banner {
    height: 20px;
    width: 900px;
    padding: 5px;
    text-align: right;
-  
+
 }
-.page-title{
-  
+
+.page-title {
+
    font-size: 30px;
-   color:beige;
-   margin-top: 150px ;
-   
+   color: beige;
+   margin-top: 150px;
+
 }
-.page-description{
-  font-size: 20px;
-  padding-left: 60px;
-  margin-left: 20px; 
-    
+
+.page-description {
+   font-size: 20px;
+   padding-left: 60px;
+   margin-left: 20px;
+
 }
-.btn-primary{
+
+.btn-primary {
    background-color: orangered;
    padding: 10px;
    border: none;
    border-radius: 5px;
    font-size: 15px;
 }
-.stactuer{
+
+/* 2 part stactuer  */
+.stactuer {
    text-align: center;
-   
+   font-weight: 600px;
+   font-size: 15px;
+
 }
-.ul-stactuer{
+
+.ul-stactuer {
+   font-weight: 400px;
+   font-size: 13px;
+   color: darkgray
+}
+
+.stactuer-title {
    display: flex;
+   align-items: center;
+   margin: 0px 200px;
+
+
+}
+
+.stectuer-sub-tiitle {
+   font-size: 30px;
+   margin: 20px;
+
+}
+
+.stectuer-p {
+   font-size: 17px;
+   margin: 10px;
+   color: darkgray
+}
+
+.icon {
+   text-align: center;
+   font-size: 30px;
+   margin: 110px;
+}
+
+.icon-style {}
+
+.skills-container {
+   display: flex;
+   gap: 150px;
+   margin: 150px 200px;
+}
+
+.skill {}
+
+.skill-description {
+   color: darkgrey;
+   font-size: 15px;
+}
+
+/* gradient-icon  */
+.gradient-box {
+   height: 180px;
+   width: 1000px;
+   text-align: center;
+   display: block;
+   background-image: url(./images/gradient3.png), url(./images/watch.png);
+   color: aliceblue;
+   margin: 200px;
+   border-radius: 5px;
+}
+
+.text-box {
+   padding-top: 30px;
+   margin-right: 600px;
+   font-size: 30px;
+   margin-left: 30px;
+}
+
+/* button  */
+.btn-box {
+   padding-top: 10px;
+   margin-right: 600px ;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 20px;
+  
+   color:chocolate;
+   margin-top: 12px;
+
+}
+/* footer end file  */
+.the-end{
+   height: 100vh;
+   width: 1367px;
+   background-color: darkred;
+   
 }
