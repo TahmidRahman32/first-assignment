@@ -129,39 +129,6 @@
 
 }
 
-/* footer end file  */
-.the-end {
-   height: 100vh;
-   background-color: darkred;
-
-}
-
-.end-title {
-   display: flex;
-
-}
-
-.end-sub-title {
-   margin: 90px;
-   gap: 20px;
-}
-
-.future {
-   margin-bottom: 30px;
-   color: aliceblue;
-}
-
-.sub-future {
-   margin-bottom: 20px;
-   color: aliceblue;
-}
-
-.icon-end {
-   gap: 150px;
-
-}
-
-
 /* aminul */
 .container {
    width: 100%;
@@ -181,18 +148,99 @@
 .container-right {
    width: 40%;
 }
-.heading{
+
+.heading {
    margin-bottom: 20px;
 }
-.item-container{
+
+.item-container {
    margin-top: 30px;
 }
-.single-item{
+
+.single-item {
    display: flex;
    gap: 4px;
    margin: 7px 0;
 }
-.svg-icon{
+
+.svg-icon {
    width: 18px;
    color: green;
+}
+
+.footer-end {
+
+   margin: 90px;
+   align-items: center;
+   display: flex;
+
+}
+
+/* footer end file  */
+.footer-title {
+   align-items: center;
+   display: flex;
+   background-color: black;
+   height: 400px;
+   width: 100%;
+   padding-left: 150px;
+  
+}
+
+.banner-title {}
+
+.sub-title {
+   align-items: center;
+   display: flex;
+
+}
+
+.icon-fooder {
+   margin: 20px;
+   height: 200px;
+   width: 0px 100px;
+}
+
+.description {
+   font-size: 15px;
+   color: azure;
+   padding-right: 0px;
+   margin-bottom: 20px;
+   display: block;
+   margin-block-start: 1 .5em;
+   margin-block-end: 1 .6em;
+   margin-inline-start: 5px;
+   margin-inline-end: none;
+   width: 50%;
+
+}
+
+.end-side {
+   margin: 30px;
+   font-size: 40px;
+   background: none;
+   text-decoration: solid black;
+   margin-right: 200px;
+   border-radius: 10px;
+   box-sizing: 200px;
+   border-style: double;
+   padding-right: 200px;
+
+}
+
+.subscribe {
+   font-size: 24px;
+   color: azure;
+   margin-bottom: 10px;
+}
+
+.description-title {
+   font-size: 20px;
+   color: azure;
+   width: 60%;
+}
+
+.top-button {
+   font-size: 30px;
+   color: rgba(255, 255, 255, 0.788)
 }
