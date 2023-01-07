@@ -1,0 +1,48 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Open Sans', sans-serif;
+}
+.page-imge{
+   background-image: url('./images/banner/banner3.png');height: 1140px;
+   width: 1367px;
+   margin-top: 0px;
+   padding: 0px;
+   background-repeat: no-repeat;
+   
+
+}
+.page-banner{
+   height: 20px;
+   width: 900px;
+   padding: 5px;
+   text-align: right;
+  
+}
+.page-title{
+  
+   font-size: 30px;
+   color:beige;
+   margin-top: 150px ;
+   
+}
+.page-description{
+  font-size: 20px;
+  padding-left: 60px;
+  margin-left: 20px; 
+    
+}
+.btn-primary{
+   background-color: orangered;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   font-size: 15px;
+}
+.stactuer{
+   text-align: center;
+   
+}
+.ul-stactuer{
+   display: flex;
+}
